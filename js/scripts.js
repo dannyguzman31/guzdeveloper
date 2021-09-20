@@ -27,3 +27,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString("Hello! I'm Daniel Guzmán")
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString("A Web Developer!")
+    .pauseFor(2500)
+    .deleteChars(14)
+    .typeString('<strong>Software Developer!</strong>')
+    .pauseFor(2500)
+    .start();
