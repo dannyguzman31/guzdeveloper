@@ -37,14 +37,14 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString("Hello! I'm Daniel Guzmán")
-    .pauseFor(2500)
+typewriter.typeString("Hello! I'm Daniel")
+    .pauseFor(3000)
     .deleteAll()
     .typeString("A Web Developer!")
-    .pauseFor(2500)
+    .pauseFor(3000)
     .deleteChars(14)
     .typeString('<strong>Software Developer!</strong>')
-    .pauseFor(2500)
+    .pauseFor(3000)
     .start();
 
 // Dark mode toggle
