@@ -57,3 +57,13 @@ const options = {
 }
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
+
+
+// form
+
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.elements.name.value = '';
+    e.target.elements.email.value = '';
+    e.target.elements.message.value = '';
+  });
