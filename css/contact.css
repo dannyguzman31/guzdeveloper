@@ -9,7 +9,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #bd5d38;
+  border:2px solid #4A4E69;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -18,7 +18,7 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #bd5d38; }
+.feedback-input:focus { border:2px solid #4A4E69; }
 
 textarea {
   height: 150px;
@@ -28,7 +28,7 @@ textarea {
 
 [type="submit"] {
   width: 100%;
-  background:#bd5d38;
+  background:#4A4E69;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -40,4 +40,4 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#f4a261; }
+[type="submit"]:hover { background:#9A8C98; }
