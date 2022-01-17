@@ -23,21 +23,26 @@
 			font-size: 4rem;
 			padding-top: 1.5rem;
 			position: relative;
-			animation: checkmove 5s infinite;
+			animation: checkmove 5s;
+			animation-iteration-count: 1;
 
 		}
 
 		main-content__checkmark:hover {
-			animation-play-state: paused;
+			animation-play-state: running;
 		}
 
 		@keyframes checkmove {
-			from {
-				left: -90px;
+			0% {
+				left: -50px;
 			}
 
-			to {
-				left: 90px;
+			50% {
+				left: 50px;
+			}
+
+			100% {
+				left: 0;
 			}
 		}
 
