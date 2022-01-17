@@ -26,7 +26,7 @@ textarea {
   resize:vertical;
 }
 
-[type="submit"] {
+/* [type="submit"] {
   width: 100%;
   background:#4A4E69;
   border-radius:5px;
@@ -40,4 +40,32 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
+*/
 [type="submit"]:hover { background:#9A8C98; }
+
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 100%;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  background:#4A4E69;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}

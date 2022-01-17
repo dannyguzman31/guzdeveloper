@@ -286,8 +286,16 @@
             <input type="hidden" name="_captcha" value="false">
             <input name="name" type="text" class="feedback-input" placeholder="Name" required />
             <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+            <input name="phone" type="text" class="feedback-input" placeholder="Phone Number" required />
+            <input name="message" type="text" class="feedback-input" placeholder="Message Subject" required />
             <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>
-            <input type="submit" value="SUBMIT" />
+            <!-- <input type="submit" value="SUBMIT" /> -->
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+      <div class="alt-send-button">
+        <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+      </div>
+
+    </button>
           </form>
         </div>
       </div>

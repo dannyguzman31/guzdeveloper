@@ -1,9 +1,10 @@
 <html lang="en">
+
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Thank You</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700' rel='stylesheet' type='text/css'>
 	<style>
 		@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
@@ -12,21 +13,75 @@
 	<link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css">
 	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script>
 	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script>
+	<style media="screen">
+		.site-header__title {
+			font-size: 32px;
+		}
+
+		.main-content__checkmark {
+			color: #4a4e69;
+			font-size: 4rem;
+			padding-top: 1.5rem;
+			position: relative;
+			animation: checkmove 5s infinite;
+
+		}
+
+		main-content__checkmark:hover {
+			animation-play-state: paused;
+		}
+
+		@keyframes checkmove {
+			from {
+				left: -90px;
+			}
+
+			to {
+				left: 90px;
+			}
+		}
+
+
+
+		.main-content__body {
+			font-size: 18px;
+		}
+
+		a:link {
+			color: #4a4e69;
+		}
+
+		a:visited {
+			color: #c9ada7;
+		}
+
+		a:hover {
+			color: #9a8c98;
+		}
+
+		a:active {
+			color: #98c1d9;
+		}
+	</style>
+
 </head>
+
 <body>
 	<header class="site-header" id="header">
 		<h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
 	</header>
 
 	<div class="main-content">
-		<i class="fa fa-share-square main-content__checkmark" id="checkmark"></i>
-		<p class="main-content__body" data-lead-id="main-content-body">Thank yo so much for contacting me, your message has been sent. I will contact you within the next 24 hours. In the meantime, please feel free to check out my projects on my site. </p>
-    <br>
-    <a href="https://guzdeveloper.com/">Return Home</a>
+		<i class="fa fa-paper-plane main-content__checkmark" id="checkmark"></i>
+		<p class="main-content__body" data-lead-id="main-content-body">Thank yo so much for contacting me, your message has been sent. I will contact you within the next 24 hours. In the meantime, please feel free to check out my projects on my site.
+		</p>
+		<br>
+		<a href="https://guzdeveloper.com/">Return Home</a>
 	</div>
 
 	<footer class="site-footer" id="footer">
 		<p class="site-footer__fineprint" id="fineprint">Copyright ©https://guzdeveloper.com</a> | All Rights Reserved</p>
 	</footer>
 </body>
+
 </html>
