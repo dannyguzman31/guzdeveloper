@@ -33,11 +33,11 @@ typewriter
   .typeString("Hello! I'm Daniel")
   .pauseFor(2500)
   .deleteAll()
-  .typeString('A Web Developer')
+  .typeString('A Software Developer')
   .pauseFor(2500)
   .deleteChars(14)
-  .typeString(' Software Developer')
-  .pauseFor(3000)
+  // .typeString(' Software Developer')
+  // .pauseFor(3000)
   .start();
 
 // Dark Mode
