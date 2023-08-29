@@ -45,7 +45,7 @@ textarea {
 }
 */
 [type='submit']:hover {
-  background: #fb8b24;
+  background: #c18c5d;
 }
 
 .send-button {
@@ -54,7 +54,7 @@ textarea {
   width: 100%;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
-  background: #4a4e69;
+  background: #495867;
 }
 
 .alt-send-button {
