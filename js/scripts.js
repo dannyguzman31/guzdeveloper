@@ -33,7 +33,7 @@ typewriter
   .typeString("Hello! I'm Daniel")
   .pauseFor(2500)
   .deleteAll()
-  .typeString('A Software Developer')
+  .typeString('A Software Engineer')
   .pauseFor(2500)
   .deleteChars(14)
   // .typeString(' Software Developer')
