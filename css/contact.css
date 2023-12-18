@@ -45,7 +45,7 @@ textarea {
 }
 */
 [type='submit']:hover {
-  background: #c18c5d;
+  background: #81B29A;
 }
 
 .send-button {
@@ -54,7 +54,7 @@ textarea {
   width: 100%;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
-  background: #495867;
+  background: #E07A5F;
 }
 
 .alt-send-button {
@@ -72,4 +72,17 @@ textarea {
 
 .alt-send-button:hover {
   transform: translate3d(0px, -29px, 0px);
+}
+
+/* Darkmode css class */
+.darkmode--activated p, .darkmode--activated li {
+  color: #000;
+}
+
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
 }

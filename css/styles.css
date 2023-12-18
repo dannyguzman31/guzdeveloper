@@ -33,7 +33,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 73, 88, 103;
+  --bs-primary-rgb: 224, 122, 95; 
   --bs-secondary-rgb: 206, 121, 107;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -262,11 +262,11 @@ sup {
 }
 
 a {
-  color: #c18c5d;
+  color: #E07A5F;
   text-decoration: underline;
 }
 a:hover {
-  color: #c18c5d;
+  color: #81B29A;
 }
 
 a:not([href]):not([class]),
@@ -8295,7 +8295,7 @@ fieldset:disabled .btn {
 }
 
 .rounded-circle {
-  border-radius: 40% !important;
+  border-radius: 20% !important;
 }
 
 .rounded-pill {
@@ -11722,13 +11722,13 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(193, 140, 93, 0.2);
+    border: 0.2rem solid rgba(1, 8, 28, 255);
   }
 
   #sideNav .navbar-brand .img-profile:hover {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(193, 140, 93, 0.65);
+    border: 0.3rem solid rgba(1, 8, 28, 255);
   }
 
   #sideNav .navbar-collapse {
@@ -11765,7 +11765,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #c18c5d;
+  background-color: #E07A5F;
 }
 
 .dev-icons {
